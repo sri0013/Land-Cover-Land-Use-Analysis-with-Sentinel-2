@@ -1,0 +1,33 @@
+# Ignore all data except small examples and metadata
+data/
+!data/output/
+!data/roi/
+
+# Ignore big results (optional, keep plots if needed)
+results/
+
+# Ignore any cache or temp
+*.log
+*.tmp
+*.aux
+*.bak
+*.swp
+__pycache__/
+*.ipynb_checkpoints/
+
+# Ignore big raster/vector files (they should be tracked by Git LFS)
+*.tif
+*.img
+*.jp2
+*.shp
+*.shx
+*.dbf
+*.prj
+
+# System
+.DS_Store
+Thumbs.db
+data/2021/
+data/2025/
+/data
+data/
